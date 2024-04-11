@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Online Profile</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  
+</head>
+<style>
+    
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    overflow:hidden;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px; 
+    box-shadow: 0 5px 80px rgba(0, 0, 0, .4);
+    background-color: #ffffff;
+    
+}
+.navbar h1,
+ h1 a{
+    color:#16334a;
+    font-weight: 600;
+    font-family: fantasy;
+    font-weight:bold;
+    background-color:#555765;
+    width:100px;
+    height:50px;
+    text-align: center;
+    padding:4px;
+    cursor: pointer;
+  
+
+    
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color:#3a4053;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+    padding-top: 25px;
+}
+.navbar ul li:hover a {
+    color: #684fc4 !important;
+}
+section {
+  text-align: center;
+  height: 100vh;
+}
+
+section h2 {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+.about{
+    display:flex;
+    padding:110px;
+    align-items: center;
+    gap:140px;
+    height: 100vh;
+}
+
+.about .left img{
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.about .left img:hover{
+    opacity:0.9;
+}
+.about .right{
+    padding: 20px;
+}
+.about .right h5{
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3d2e75;
+}
+.about .right h3{
+    color:#684fc4;
+}
+.about .right h4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.about .right{
+    font-weight: 100;
+    margin-top: 16px;
+    font-family: Helvetica, sans-serif;
+}
+.about .right p{
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#education{
+    display:flex;
+    padding:110px;
+    align-items: center;
+    gap:140px;
+    height: 100vh;
+}
+
+#education .right img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+#education .right img:hover{
+    opacity:0.9;
+}
+#education .left{
+    padding: 20px;
+}
+#education .left h5{
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3d2e75;
+}
+#education .left h3{
+    color:#684fc4;
+}
+#education .left h4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#education .left{
+    font-weight: 100;
+    margin-top: 16px;
+    font-family: Helvetica, sans-serif;
+}
+#education .left p{
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.interests{
+    padding: 300px 85px 0;
+    height: 100vh;
+}
+.interests h3{
+    font-size: 30px;
+    margin-top:20px;
+    color: #684fc4;
+}
+.interests h4{
+    color:#3d2e75;
+}
+.interests .interest-items {
+    display:flex;
+    padding:10px;
+    gap:30px;
+}
+.interests .interest-items .item{
+    background-color: #deebee;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.interests .interest-items .item:hover{
+    opacity: .8;
+    border-bottom: solid 3px;
+    border-color: #684fc4;
+}
+.interests .interest-items .item img{
+    width: 50%;
+}
+#contact{
+    height: 100vh;
+    padding: 300px 85px 0;
+}
+</style>
+<body>
+
+
+<div class="navbar">
+       
+    <h1>JL</h1> 
+    
+
+<ul>
+    <li><a href="#main">Home</a></li>
+    
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#interests">Interests/hobbies</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+
+</div>
+
+<div class="about" id="about">
+    <div class="left">
+        <img src="cute-nezuko-by-the-sea-sticker.png" alt="">
+    </div>
+    <div class="right">
+        <h5>About</h5>
+        <h3>About Me</h3>
+        
+        <h4>Name:  Jashen I. Loberanes</h4>
+        <h4>School:  Cordova Public College</h4>
+        <h4>Year & Section:  BSIT 1C</h4>
+        
+        <p>
+            "Hello there, lovely souls! I'm Jashen Loberanes, a spirited teenager on a quest for a world brimming with peace and joy. At 19 years young, I'm a dreamer with stars in my eyes.  But wait, there's more to me than meets the eye! I'm also a dedicated anime enthusiast, with favorites like Haikyuu!, Demon Slayer, and Black Clover capturing my heart. Curious to learn more? Dive into my world by exploring this webpage! "
+        </p>
+      
+    </div>
+</div>
+
+
+<section id="education" class="py-5 bg-light">
+    <div class="left">
+        <h5></h5>
+        <h3>Education</h3>
+        
+        <h4> <b>Current Institution: </b> Cordova Public College</h4>
+        <h4> <b>Degree Pursuing: </b> Bachelor of Science in Information Technology</h4>
+        <h4> <b>Year & Section: </b> BSIT 1C</h4>
+        <h4> <b>Achievements: </b> None</h4>
+
+        <h3>Previous Education:  </h3>
+        <h4><b>Name of School:</b>  Cordova National High School</h4>
+        <h4><b>Strand:</b>  Humanities and Social Sciences</h4>
+        <h4><b>Achievements: </b> With High Honors</h4>
+<br>
+        <p>
+            I used to be good in Academics. I don't know what has happened to me this school year : (
+        </p>
+    </div>
+    <div class="right">
+        
+        <img src="pngaaa.com-4544689.png" alt="">
+    </div>
+</section>
+
+
+<div class="interests" id="interests">
+    <h4>My Interests/Hobbies</h4>
+    <h3></h3>
+    <div class="interest-items">
+        <div class="item">
+            <img src="PencilStickerPNGImage.png" alt="">
+            
+        </div>
+        
+        <div class="item">
+            <img src="—Pngtree—boy dancing hip-hop_7080009.png" alt="">
+        </div>
+        <div class="item">
+            <img src="Lovepik_com-401447030-hand-drawn-music-festival-singing-singer-boy.png" alt="">
+        </div>
+        <div class="item">
+            <img src="pngaaa.com-905901.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Email: jashenjy@gmail.com</p>
+    <p>Phone: 09770887271/09533987065</p>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
